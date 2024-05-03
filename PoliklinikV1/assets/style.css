@@ -1,0 +1,53 @@
+:root {
+    --pr-color:#80011f;
+}
+
+.img-icon {
+    width: 50px;
+}
+
+.btn-register {
+    border-radius:5px;
+    background: var(--pr-color);
+    color: white;
+    border: none;
+    /* border: 2px solid var(--pr-color); */
+    width: 100px;
+    height: 40px;
+}
+
+.btn-login {
+    border-radius:5px;
+    background: grey;
+    color: white;
+    border: none;
+    /* border: 2px solid var(--pr-color); */
+    width: 100px;
+    height: 40px;
+}
+
+/* Section Awal */
+#sec-awal {
+    width: 100%;
+    height: 70vh;
+    /* background: #80011f; */
+    /* margin-top: 76px; */
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    background-image:url(landing.png); 
+}
+
+/* Section Awal */
+#sec-admin {
+    width: 100%;
+    height: 70vh;
+    /* background: #80011f; */
+    /* margin-top: 76px; */
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    background-image:url(admin.png); 
+}
